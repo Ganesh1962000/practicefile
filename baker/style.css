@@ -1,0 +1,471 @@
+*{
+	margin:0;
+	padding:0;
+}
+.firstsection{
+	background-color:#5F7376;
+	height:75vh;
+}
+.header{
+	background-color:#084956 ;
+	height:13vh;
+}
+.container{
+	margin:auto;
+	width:90%;
+	height: auto;
+}
+.fullheader{
+	display:flex;
+}
+.logo{
+	width:200px;
+	background-color:white;
+	height:13vh;
+	text-align:center;
+	margin-top:0;
+}
+.logo h1{
+	padding-top:35px;
+}
+.nav{
+	margin-left:350px;
+	width:700px;
+	background-color:yellow;
+	height:13vh;
+}
+.nav ul{
+	display:flex;
+	padding:40px;
+	justify-content:space-between;
+	margin:0;
+}
+.main{
+	background-color:#43B0C6;
+	margin-top:100px;
+	height:200px;
+}
+.fullfooter{
+	height:15vh;
+	background-color:yellow;
+}
+.fffull{
+	display:flex;
+	justify-content:space-between;
+}
+.ff1{
+	height:10vh;
+	width:100px;
+	margin-top:20px;
+	background-color:white;
+}
+.secondsection{
+	background-color:#A0E199;
+	height:75vh;
+}
+.ssf{
+	padding-top:70px;
+	display:flex;
+}
+.ssimage{
+	width:600px;
+	height:55vh;
+	background-color:white;
+	margin-top:10px;
+	margin-right:0;
+}
+.isfdiv{
+	padding:;
+	margin-left:150px;
+	background-color:red;
+	width:600px;
+	
+}
+.vol{
+	height:20vh;
+	width:600px;
+	background-color:blue;
+	margin-left:;
+}
+.isb{
+	display:flex;
+	background-color:white;
+	height:30vh;
+	margin-top:30px;
+	width:600px;
+	margin-left:;
+
+}
+.corp{
+	height:20vh;
+	width:200px;
+	background-color:yellow;
+	margin-left:30px;
+	margin-top:40px;
+}
+.ulla{
+	height:20vh;
+	width:200px;
+	background-color:blue;
+	margin-left:140px;
+	margin-top:40px;
+
+}
+.secondfooter{
+	height:15vh;
+	background-color:pink;
+}
+.sffn{
+	padding-top:20px;
+	display:flex;
+	justify-content:space-between;
+}
+.shf1{
+	height:10vh;
+	width:100px;
+	background-color:brown;
+	margin-left:70px;
+	margin-right:130px;
+}
+.thheader{
+	height:15vh;
+	background-color:red;
+	padding-top:20px;
+}
+.services{
+	margin-top:10px;
+	height:7vh;
+	background-color:white;
+}
+.thirdsection{
+	height:80vh;
+	background-color:pink;
+	padding-top:30px;
+	display:flex;
+}
+.holsixbox1{
+	height:35vh;
+	background-color:yellow;
+	display:flex;
+	justify-content:space-between;
+}
+.hsb1{
+	height:30vh;
+	width:200px;
+	background-color:red;
+	margin-top:20px;
+	margin-left:80px;
+	margin-right:90px;
+}
+.holsixbox2{
+	height:35vh;
+	background-color:gray;
+	display:flex;
+	justify-content:space-between;
+	padding-top:10px;
+}
+.hsb2{
+	height:30vh;
+	width:200px;
+	background-color:red;
+	margin-left:80px;
+	margin-right:90px;
+}
+.fsh{
+	height:15vh;
+	background-color:blue;
+	padding-top:25px;
+}
+.callto{
+	height:10vh;
+	background-color:white;
+}
+.fourthsection{
+	height:80vh;
+	background-color:pink;
+
+}
+.fosh{
+	height:20vh;
+	width:100%;
+	background-color:red;
+	padding-top:10px;
+}
+.ifosh{
+	height:10vh;
+	width:80%;
+	background-color:white;
+	margin:15px;
+	margin-left:10%;
+}
+.htbox{
+	height:60vh;
+	background-color:yellow;
+	display:flex;
+	justify-content:space-between;
+}
+.trbox{
+	height:40vh;
+	width:350px;
+	background-color:white;
+	margin-top:80px;
+	
+}
+.fivethsection{
+	height:10vh;
+	background-color:pink;
+
+}
+.fivethsection{
+	height:20vh;
+	background-color:gray;
+	padding-top:20px;
+}
+.pofo{
+	margin-top:10px;
+	height:7vh;
+	background-color:white;
+	padding-top:30px;
+}
+.ipofo{
+	margin-top:10px;
+	height:5vh;
+	background-color:blue;
+}
+.sixthsection{
+	height:120vh;
+	background-color:green;
+	padding-top:30px;
+	display:flex;
+}
+.nihbox1{
+	height:35vh;
+	background-color:yellow;
+	display:flex;
+	justify-content:space-between;
+}
+.nhbo{
+	display:flex;
+}
+.nbox1{
+	height:30vh;
+	width:400px;
+	background-color:aqua;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:90px;
+	display:flex;
+}
+.nihbox2{
+	height:35vh;
+	background-color:white;
+	display:flex;
+	justify-content:space-between;
+}
+.nbox2{
+	height:30vh;
+	width:400px;
+	background-color:aqua;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:90px;
+}
+.nihbox3{
+	height:35vh;
+	background-color:yellow;
+	display:flex;
+	justify-content:space-between;
+}
+.nbox3{
+	height:30vh;
+	width:400px;
+	background-color:aqua;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:90px;
+}
+.savanthsection{
+	height:85vh;
+	background-color:pink;
+
+}
+.hteam{
+	height:20vh;
+	width:100%;
+	background-color:blue;
+	padding-top:10px;
+}
+.ihteam{
+	height:10vh;
+	width:80%;
+	background-color:white;
+	margin:15px;
+	margin-left:10%;
+}
+.htrbox{
+	height:60vh;
+	background-color:gray;
+	display:flex;
+	justify-content:space-between;
+}
+.itrbox{
+	height:40vh;
+	width:350px;
+	background-color:white;
+	margin-top:80px;
+}
+.eithsection{
+	height:20vh;
+	background-color:red;
+	padding-top:20px;
+}
+.pric{
+	margin-top:10px;
+	height:7vh;
+	background-color:white;
+	padding-top:30px;
+}
+.ipric{
+	margin-top:10px;
+	height:5vh;
+	background-color:blue;
+}
+.ehsection{
+	height:60vh;
+	background-color:gray;
+}
+.fohbox{
+	height:60vh;
+	background-color:gray;
+	display:flex;
+	justify-content:space-between;
+}
+.ifobox{
+	height:40vh;
+	width:280px;
+	background-color:white;
+	margin-top:80px;
+}
+.nithsection{
+	height:80vh;
+	background-color:red;
+	padding-top:20px;
+}
+.freq{
+	margin-top:10px;
+	height:7vh;
+	background-color:white;
+	padding-top:30px;
+}
+.ifreq{
+	margin-top:10px;
+	height:5vh;
+	background-color:blue;
+}
+.icontent{
+	height:60vh;
+	background-color:blue;
+	margin-top:20px;
+}
+.tenthsection{
+	height:90vh;
+	background-color:yellow;
+}
+.contact{
+	height:15vh;
+	width:100%;
+	background-color:gray;
+	padding-top:10px;
+}
+.inscontact{
+	height:5vh;
+	width:80%;
+	background-color:blue;
+	margin-left:10%;
+	margin-top:20px;
+}
+.inhcontact{
+	height:70vh;
+	background-color:pink;
+	margin-top:20px;
+	padding-top:5px;
+	display:flex;
+}
+.inchb1{
+	height:65vh; 
+	width:550px;
+	background-color:gray;
+	margin-top:20px;
+	margin-left:90px;
+}
+.inchb2{
+	height:65vh;
+	width:550px;
+	background-color:gray;
+	margin-top:20px;
+	margin-left:40px;
+}
+
+.lastsection{
+	background-color: green;
+	height: 80vh;
+	padding-top:10px;
+}
+.focbox{
+	height:55vh;
+	background-color:pink;
+	display:flex;
+	justify-content:space-around;
+}
+.ifocbox{
+	height:45vh;
+	background-color:blue;
+	width:300px;
+	margin-top:20px;
+}
+.lastfooter{
+	height:20vh;
+	background-color:yellow;
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between;
+}
+.inlfr{
+	height:15vh;
+	width:300px;
+	background-color:white;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
