@@ -23,6 +23,7 @@
 .header{
 	background-color:#084956 ;
 	height:10vh;
+	width:100%;
 	position:fixed;
 	top:0;
 	
@@ -318,8 +319,7 @@
    
 }
 .thheader{
-	height:20vh;
-	background-color:;
+	background-color:white;
 	padding-top:10px;
 	text-align:center;
 }
@@ -328,39 +328,39 @@
 	font-size:13px;
 }
 .services{
-	margin-top:;
-	height:7vh;
-	background-color:white;
-	text-align:center;
-	padding:10px;
+	padding-top:30px;
+}
+.services h1{
+	font-weight:bold;
+	font-size:30px;
 }
 .sbutton{
 	margin-bottom:10px;
 	width:60px;
-	border:1.5px solid yellow;
-	font-weight:bold;
+	border:2px solid yellow;
 }
 .thirdsection{
-	height:100vh;
-	background-color:pink;
+	height:90vh;
+	background-color:white;
 	display:flex;
 }
 .holsixbox1{
-	height:45vh;
-	background-color:yellow;
+	height:40vh;
+	background-color: #F8F9F9 ;
 	display:flex;
 	justify-content:space-around;
 	text-align:center;
+
 }
 .hsb1{
-	height:43vh;
+	height:30vh;
 	width:30%;
-	background-color:gray;
-	margin-top:px;
+	background-color:white;
 	margin-left:10px;
 	margin-right:10px;
-	margin-top:5px;
-	text-align:center;
+	margin-top:30px;
+	padding-top:30px;
+	line-height:30px;
 }
 .bid{
 	font-size:30px;
@@ -372,19 +372,22 @@
 	font-size:30px;
 }
 .holsixbox2{
-	height:45vh;
-	background-color:gray;
+	height:40vh;
+	background-color: #F8F9F9 ;
 	display:flex;
 	justify-content:space-around;
-	padding-top:10px;
+	padding-top:30px;
 	text-align:center;
 }
 .hsb2{
-	height:43vh;
+	height:30vh;
 	width:30%;
-	background-color:red;
+	background-color:aqua;
 	margin-left:10px;
 	margin-right:10px;
+	padding-top:30px;
+	line-height:30px;
+	
 }
 .bil{
 	font-size:30px;
@@ -396,13 +399,38 @@
 	font-size:30px;
 }
 .fsh{
-	height:15vh;
-	background-color:blue;
-	padding-top:25px;
+	background-color: #394959 ;
+	text-align:center;
 }
-.callto{
-	height:10vh;
-	background-color:white;
+.fsh h1{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:7vh;
+	line-height:30px;
+	color:white;
+}
+.fsh p{
+	padding-top:10px;
+	font-family:arial;
+	color:white;
+	margin-top:1vh;
+}
+.callbutton{
+	height:7vh;
+	width:15%;
+	border:1.5px solid orange;
+	margin-bottom:7vh;
+	margin-top:4vh;
+	border-radius:25px;
+	background-color:transparent;
+	color:white;
+	font-weight:bold;
+	font-family:arial;
+}
+.callbutton:hover{
+	background-color:orange;
+	transition:all ease 1s;
 }
 .fourthsection{
 	height:80vh;
@@ -410,23 +438,33 @@
 
 }
 .fosh{
-	height:20vh;
 	width:100%;
-	background-color:red;
-	padding-top:10px;
-}
-.ifosh{
-	height:10vh;
-	width:80%;
 	background-color:white;
-	margin:15px;
-	margin-left:10%;
+	padding-top:10px;
+	text-align:center;
+}
+.fosh h1{
+	padding-top:6vh;
+	font-weight:bold;
+	font-family:sans-serif;
+	font-size:30px;
+}
+.teline{
+	margin-bottom:10px;
+	width:75px;
+	border:2px solid yellow;
+}
+.fosh p{
+	margin-top:1vh;
+	padding-bottom:2vh;
+	font-family:arial;
+	
 }
 .htbox{
 	height:60vh;
 	background-color:yellow;
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-around;
 }
 .trbox{
 	height:40vh;
@@ -436,25 +474,22 @@
 	
 }
 .fivethsection{
-	height:10vh;
-	background-color:pink;
-
-}
-.fivethsection{
-	height:20vh;
 	background-color:gray;
-	padding-top:20px;
 }
 .pofo{
-	margin-top:10px;
-	height:7vh;
-	background-color:white;
-	padding-top:30px;
+	text-align:center;
 }
-.ipofo{
-	margin-top:10px;
-	height:5vh;
-	background-color:blue;
+.pofo h1{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:6vh;
+}
+.pofo p{
+	margin-top:3vh;
+}
+.ipofo4{
+	
 }
 .sixthsection{
 	height:120vh;
