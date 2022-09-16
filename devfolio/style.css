@@ -4,6 +4,9 @@
 }
 header{
 	background-color: black;
+	width: 100%;
+	position:fixed;
+	top:0;
 }
 .container{
 	margin:0% 5%;
@@ -45,7 +48,7 @@ header{
 .bannercontent{
 	color: white;
 	padding-left: 22%;
-	padding-top: 15%;
+	padding-top: 21%;
 }
 .bannercontent h1{
 	font-size: 4.5rem;
@@ -53,9 +56,30 @@ header{
 }
 .bannercontent p{
 	font-size: 2rem;
-	font-family:sans-serif
+	font-family: sans-serif
 }
-
+.aboutbox{
+	height: 100vh;
+	background-color: aqua;
+}
+.inabout{
+	display: flex;
+	padding: 9vh 0;
+}
+.profilebox{
+	width: 50%;
+	height: 80vh;
+	background-color: yellow;
+}
+.proinfer{
+	display:flex;
+}
+.aboutme{
+	width: 50%;
+	height: 80vh;
+	background-color: green;
+}
+	
 
 
 
