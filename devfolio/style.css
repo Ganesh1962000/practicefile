@@ -59,26 +59,446 @@ header{
 	font-family: sans-serif
 }
 .aboutbox{
-	height: 100vh;
-	background-color: aqua;
+	height: 105vh;
+	background-color: #F2F3F4;
 }
 .inabout{
 	display: flex;
-	padding: 9vh 0;
+	padding: 9vh 3%;
 }
 .profilebox{
 	width: 50%;
 	height: 80vh;
-	background-color: yellow;
+	background-color: #fff;
+	padding: 25px;
 }
 .proinfer{
-	display:flex;
+	display: flex;
+}
+.infer{
+	margin-left: 15%;
+	margin-top: 5%;
+	font-family: sans-serif;
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.infer span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.simg{
+	border-radius: 10px;
+	margin-left: 25%;
+	margin-top: 25%;
+	height: 22vh;
+	width: 100%;
+}
+.skill{
+	margin-top: 10px;
+	padding: 25px;
+}
+.skill h1{
+	font-family: arial;
+	font-size: 25px;
+}
+.skill p{
+	margin-top: 20px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 35px;
+}
+.fline{
+	width: 100%;
+	background-color: #cde1f8;
+	height: 0.8rem;
+}
+.html85{
+	width: 85%;
+	background-color: #0078ff;
+	height: 0.8rem;
+}
+.css375{
+	width: 75%;
+	background-color: #0078ff;
+	height: 0.8rem;
+}
+.php50{
+	width: 50%;
+	background-color: #0078ff;
+	height: 0.8rem;
+}
+.js90{
+	width: 90%;
+	background-color: #0078ff;
+	height: 0.8rem;
 }
 .aboutme{
-	width: 50%;
+	width: 45%;
 	height: 80vh;
-	background-color: green;
+	background-color: white;
+	color: #808B96 ;
+	padding: 25px 0;
 }
+.aboutli{
+	width: 18%;
+	border: 3px solid blue;
+
+}
+.aboutme h1{
+	padding-top: 30px;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.aboutme p{
+	margin-top: 3vh;
+	font-family: sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	color: #808B96 ;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.sfout{
+	background-color:  #F2F3F4;
+	height: 140vh;
+}
+.serviesfull{
+	background-color: ;
+	
+}
+.services{
+	text-align: center;
+	height: 20vh;
+	background-color:  #F2F3F4;
+}
+.services h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top:30px;
+}
+.services p{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top:10px;
+}
+.servline{
+	width: 3%;
+	border: 3px solid blue;
+	margin-left: 48%;
+	margin-top: 2vh;
+}
+.servicesbox{
+	background-color: #F2F3F4;
+	height: 100%;
+	text-align: center;
+}
+.shb1{
+	width: 100%;
+	height: 50vh;
+	background-color: #F2F3F4;
+	margin-top: 5vh;
+	display: flex;
+	justify-content: space-around;
+}
+.wwb{
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+}
+.wwb :hover iconify-icon{
+	color: white;
+	border-color: #cde1f8;
+	background-color: blue;
+}
+.wwb h2{
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-top: 1.5vh;
+	font-weight: normal;
+}
+.wwb p{
+	font-family: sans-serif;
+	font-size: 19px;
+	margin-top: 0.5vh;
+	padding: 20px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #566573;
+}
+.icd{
+	text-align: center;
+	margin-top: 4vh;
+}
+.icdic{
+	font-size: 40px;
+	font-size: 40px;
+	border-radius: 50%;
+	border: 10px solid blue;
+	padding: 25px;
+	color: black;
+}
+.shb2{
+	width: 100%;
+	height: 100vh;
+	background-color: #F2F3F4;
+	margin-top: 5vh;
+	display: flex;
+	justify-content: space-around;
+}
+.rgm{
+	height: 50vh;
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+}
+.rgm :hover iconify-icon{
+	color: white;
+	border-color: #cde1f8;
+	background-color: blue;
+}
+.rgm h2{
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-top: 1.5vh;
+	font-weight: normal;
+}
+.rgm p{
+	font-family: sans-serif;
+	font-size: 19px;
+	margin-top: 0.5vh;
+	padding: 20px;
+	line-height: 35px;
+	font-weight: normal;
+	color: #566573;
+}
+.numst{
+	background-image: url(image/counters-bg.jpg);
+	background-size: cover;
+	width: 100%;	
+	height: 60vh;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+}
+.numst::after{
+	background-color: #0078ff;
+	content:"";
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	
+}
+.innus{
+	display: flex;
+	position: relative;
+	z-index: 1;
+	justify-content: space-around;
+	color: white;
+}
+.ntd{
+	text-align: center;
+	font-family: sans-serif;
+}
+.ntd h2{
+	font-size: 45px;
+	font-weight: normal;
+}
+.ntd h4{
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 1vh;
+}
+.nic{
+	text-align: center;
+	margin-top: 20vh;
+}
+.icn{
+	font-size: 40px;
+	border-radius: 50%;
+	border: 10px solid #cde1f8;
+	padding: 35px;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+.portfolio{
+	background-color:  #F2F3F4;
+	padding-bottom: 3%;
+}
+.inpofo{
+	text-align: center;
+}
+.inpofo h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top:30px;
+}
+.inpofo p{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top:10px;
+}
+.pofoline{
+	width: 3%;
+	border: 3px solid blue;
+	margin-left: 48%;
+	margin-top: 2vh;
+}
+.pofobox1{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.llm{
+	margin-top: 10vh;
+	height: 45vh;
+	width: 31%;
+	background-color: white;
+	overflow: hidden;
+}
+.llm h3{
+	margin-top: 4.5vh;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight:;
+	margin-left: 5%;
+}
+.llm p{
+	margin-top: 1vh;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight:;
+	margin-left: 5%;
+}
+.llm span{
+	color: #0000FF;
+}
+.pofobox2{
+	display: flex;
+	justify-content: space-around;
+}
+.bss{
+	margin-top: 7vh;
+	height: 45vh;
+	width: 31%;
+	background-color: white;
+	overflow: hidden;
+}
+.bss h3{
+	margin-top: 4.5vh;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight:;
+	margin-left: 5%;
+}
+.bss p{
+	margin-top: 1vh;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight:;
+	margin-left: 5%;
+}
+.bss span{
+	color: #0000FF;
+}
+.pofoimg{
+	height: 30vh;
+	width: 100%;
+}
+.pofoimg:hover{
+	height: 30vh;
+	transform: scale(1.1);
+	transition: all ease 0.9s;
+}
+.marta{
+	background-image: url(image/overlay-bg.jpg);
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	background-attachment: fixed;
+	position: relative;
+}
+.marta::after{
+	content:"";
+	background-color:  #0078ff; 
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.martaimg{
+	height: 22vh;
+	width: 24%;
+	border-radius: 100%;
+	margin-top: 24vh;
+}
+.inmarta{
+    text-align: center;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-left: 22%;
+}
+.inmarta h2{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: normal;
+	color: white;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+.inmarta p{
+	font-family: arial;
+	font-size: 21px;
+	font-weight: normal;
+	color: white;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.blog{
+	background-color:  #F2F3F4;
+	padding-bottom: 3%;
+}
+.inblog{
+	text-align: center;
+}
+.inblog h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top:30px;
+}
+.inblog p{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top:15px;
+	padding-bottom: 25px;
+}
+.blogline{
+	width: 3%;
+	border: 3px solid blue;
+	margin-left: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
