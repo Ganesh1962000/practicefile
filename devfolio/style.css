@@ -47,7 +47,7 @@ header{
 }
 .bannercontent{
 	color: white;
-	padding-left: 22%;
+	padding-left: 30%;
 	padding-top: 21%;
 }
 .bannercontent h1{
@@ -377,9 +377,13 @@ header{
 	font-size: 15px;
 	font-weight:;
 	margin-left: 5%;
+	display: flex;
 }
 .llm span{
 	color: #0000FF;
+}
+.icllm{
+	
 }
 .pofobox2{
 	display: flex;
@@ -499,6 +503,7 @@ header{
 	justify-content: space-between;
 }
 .blogbox{
+	width: 30%;
 	margin-bottom: 4rem;
 	border: 3px solid #ccc;
 	box-shadow: 0 0 10px #ccc;
@@ -564,6 +569,10 @@ header{
 }
 .clock{
 	padding-top: 10px;
+	align-item: center;
+}
+.clock iconify-icon {
+	font-size: 20px;
 }
 /*End of Blog*/
 .send{
@@ -589,9 +598,8 @@ header{
 	z-index: 1;
 	background-color: #fff;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 20px 50px;
-	width: 100%;
 	height: 85vh;
 }
 .none{
@@ -620,12 +628,12 @@ header{
 }
 .formcontent input{
 	margin-bottom: 1.5rem;
-	width: 100%;
+	width: 90%;
 	padding: 10px 12px;
 }
 .formcontent .message{
 	height: 7rem;
-	width: 100%;
+	width: 94%;
 	margin-bottom: 2rem;
 }
 .formcontent .submit{
@@ -691,17 +699,21 @@ header{
 	list-style-type: none;
 	display: inline-block;
 }
-.ulicon i{
+iconify-icon{
+	font-size: 30px;
+	line-height: 20px;
+}
+.ulicon iconify-icon{
 	height: 40px;
     width: 40px;
     font-size: 1.2rem;
     border-radius: 50%;
     line-height: 1.6;
     margin: 0 15px 0 0;
-	border:/3px solid #0078ff;
+	border: 3px solid #0078ff;
 	padding: 10px 10px;
 }
-.ulicon i:hover{
+.ulicon iconify-icon:hover{
 	background-color: #0078ff;
 	border-color: #CDE1F8;
 	color: #fff;
