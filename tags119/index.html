@@ -9,7 +9,7 @@
 <body>
     <!--Pre tag-->
 	
-    <h1>Pre tag</h1><p></P>
+    <h1>Pre element</h1><p></P>
     <pre>
         Text in a pre element @#$%^&*()_+=
         is displayed in a fixed-width
@@ -17,35 +17,42 @@
         both    spaces and
         line ????? breaks
     </pre>
+	    <pre>
 	  
+	    </pre>
     <!--Progress tag-->
 	
     <h1>Progress Element</h1>
     <label for="file">Loading progress:</label>
     <progress id="file" value="80" max="100"></progress>
+	<progress value="30" max="100" ></progress>
 	
     <!--q tag-->
 	
     <h1>q Element</h1>
     <p>WWF's goal is to: <q> nature.</q>We hope they succeed.</p>
+	<q></q>
 	
     <!--s tag -->
 	
     <h1>s element</h1>
     <p><s>Only 50 tickets left!</s></p>
     <p>SOLD OUT!</p>
+	<s></s>
 	
     <!--samp tag-->
 	
     <h1>samp element</h1>
     <p>Message from my computer:</p>
     <p><samp>File not found.<br>Press F1 to continue</samp></p>
+	<samp></samp>
 	
     <!--script tag-->
 	
 	<h1>script element</h1>
     <script></script>
     <p>used above body tag to link js</p>
+	<script></script>
 	
     <!--section tag-->
 	
@@ -66,12 +73,15 @@
            <option value="audi">Audi</option>
         </select>
     </form>
-	
+			<select></select>
+			
     <!--small tag-->
 	
     <h1>small element</h1>
     <p>This is some normal text.</p>
-    <p><small>This is some smaller text.</small></p>  
+    <p><small>This is some smaller text.</small></p> 
+	<h6>This is some smaller text</h6>
+		<small></small>
 	
     <!--source tag-->
 	
@@ -80,15 +90,16 @@
 	<p>video/audio/picture</p>
 	
     <audio controls>
-      <source src="horse.ogg" type="audio/ogg">
-      <source src="horse.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
+      <source src="taiger.ogg" type="audio/ogg">
+      <source src="taiger.mp3" type="audio/mpeg">
     </audio>
+	<source src="" type=""></source>
 	
     <!--span tag-->
 	
     <h1>span element</h1>
     <p>My mother has <span style="color:aqua">aqua color</span></p>
+	<span></span>
 	
     <!--strike tag-->
 	
@@ -100,16 +111,19 @@
     <h1>Strong Element</h1>
     <p>This text is normal.</p>
     <p><strong>This text is strong!</strong></p> 
+	<strong></strong>
 	
     <!--style tag-->
 	
     <h1>Style element</h1>
 	<style height="" width=""></style>
+	<style></style>
 	
     <!--sub tag-->
 	
 	<h1>sub element</h1>
     <p>This text contains <sub>subscript</sub> text.</p>
+	<sub></sub>
 	
     <!--summary tag -->
 	
@@ -118,18 +132,24 @@
         <summary>Epcot Center</summary>
         <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
     </details>
+	<summary><summary>
 	
     <!--sup tag-->
 	
 	<h1>sup element</h1>
     <p>name<sup>color</sup>para</p>
+	<sup></sup>
 	
     <!--svg tag-->
 	
     <h1>svg element</h1>
        <svg width="100" height="100">
-           <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>Sorry, your browser does not support inline SVG.
+           <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
        </svg>
+	   <svg width="400" height="100">
+		   <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+       </svg>
+	   <svg><svg>
 	   
     <!--table tag-->
 	
@@ -144,6 +164,7 @@
           <td>$100</td>
         </tr>
       </table>
+	  <table></table>
 	  
     <!--tabel full tags -->
 	
@@ -172,6 +193,13 @@
           </tr>
         </tfoot>
     </table>  
+	<table></table>
+	<thead></thead>
+	<tbody></tbody>
+	<tfoot></tfoot>
+	<tr></tr>
+	<th></th>
+	<td></td>
 	  
     <!--textarea tag-->
 	  
@@ -203,38 +231,52 @@
 	  
 		<h1>tt teletype element</h1>
       <h4>Not used in html5</h4>
+	  <tt></tt>
 		
     <!--u tag-->  
 	  
 	  <h1>u element</h1>
       <p>This is some <u>underline</u> text.</p>
+	  <u></u>
 	  
     <!--ul tag-->
 	
 		<h1>ul element</h1>
-        <ul>
-            <li></li>
-            <li></li>
+        <ul type="circle">
+            <li>coffe</li>
+            <li>tea</li>
         </ul>
+		<ul>
+			<li>black</li>
+			<li>white</li>
+		</ul>
+		<ul type="square">
+			<li>box1</li>
+			<li>box2</li>
+		</ul>
+		<ul></ul>
 		
     <!--var tag-->
 		
 		<h1>var element</h1>
         <p>The area of a triangle is: 1/5 x <var>a</var> x <var>b</var></p>
-	   
+	    <var></var>
+		
 	   <!--video tag-->
 	   
 	   <h1>video tag</h1>
 	   <video width="320" height="240" controls>
-	   <source src="movie.mp4" type="video/mp4">
+	   <source src="C:\Users\ELCOT\Videos\vlc-record-2020-04-12-17h37m09s-Bigil_Single_Part_(640x360)(1).mp4-.mp4" type="video/mp4">
 	   <source src="movie.ogg" type="video/ogg">
 	   </video>
+	   <video controls></video>
 
     <!--wbr tag = word break oppurtunity-->
 		<h1>wbr element</h1>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<wbr>Magniadipiscieaqueautemfugiat Quia, provident vitae!
 	   Magni tempora perferendis eum non provident.
 	   </p>
+	   <wbr>
 	   
 	   
 	   
