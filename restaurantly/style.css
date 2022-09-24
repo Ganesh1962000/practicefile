@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	margin: 0% 8%;
+	width: 100;
+}
+header{
+	background-color: black;
+}
+.firstsection{
+	background-image: url(.image/hero-bg.jpg);
+}
+.head1{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	allign-item: center;
+	padding:  10px;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	background-color: aqua;
+}
+.number{
+	display: flex;
+	width: 70%;
+	justify-content: space between;
+}
+.number .time{
+	padding-left: 15px;
+}
+.nuside p{
+	padding-right: 25px;
+}
+.nuside span{
+	color: orange;
+}
+.tmtic{
+	font-size: 15px;
+	color: orange;
+}
+.head2{
+	display: flex;
+	width: 100%;
+	padding: 1.3rem 0.6rem;
+	font-family: sans-serif;
+	color: white;
+	allign-item: center;
+}
+.title{
+	width: 20%;
+}
+.navbar{
+	width: 80%;
+	allign-item: center;
+	padding-top: 4px;
+	font-size: 0.9rem;
+}
+.navbar ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.navbar a{
+	text-decoration: none;
+	color: white;
+}
+.navbar a:hover{
+	color: orange;
+	transition: ease all 1s;
+}
+.bookbut{
+	color: white;
+	border: 2px solid orange;
+	background-color: transparent;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+}
+.bookbut:hover{
+	color: white;
+	background-color: orange;
+	transition: ease all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
