@@ -10,7 +10,10 @@ header{
 	background-color: black;
 }
 .firstsection{
-	background-image: url(.image/hero-bg.jpg);
+	background-color: silver;
+	height: 100vh;
+	background-image: url(image/hero-bg.jpg);
+	background-size: cover;
 }
 .head1{
 	display: flex;
@@ -83,10 +86,59 @@ header{
 	background-color: orange;
 	transition: ease all 1s;
 }
-
-
-
-
+.welcome{
+	padding: 2rem 0rem;
+	margin-top: 25vh;
+}
+.welcome h1{
+	font-family: sans-serif;
+	font-size: 3.3rem;
+	font-weight: bold;
+	color: white;
+}
+.welcome span{
+	color:  #F1953A ;
+}
+.welcome p{
+	color: #ECF0F1 ;
+	font-size: 1.6rem;
+}
+.ourmenu{
+	background-color: transparent;
+	color: white;
+	border: 1px solid orange;
+	border-radius: 4rem;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.ourmenu:hover{
+	color: white;
+	background-color: #F1953A;
+	transition: ease all 1s;
+	border-color: #F1953A;
+}
+.bookatable{
+	background-color: transparent;
+	color: white;
+	border: 1px solid orange;
+	border-radius: 4rem;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: 1.5rem;
+	margin-left: 1.2rem;
+}
+.bookatable:hover{
+	color: white;
+	background-color: #F1953A;
+	transition: ease all 1s;
+	border-color: #F1953A;
+}
 
 
 
