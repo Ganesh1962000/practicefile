@@ -10,8 +10,8 @@ header{
 	background-color: black;
 }
 .firstsection{
-	background-color: silver;
 	height: 100vh;
+	background-color: silver;
 	background-image: url(image/hero-bg.jpg);
 	background-size: cover;
 }
@@ -139,10 +139,57 @@ header{
 	transition: ease all 1s;
 	border-color: #F1953A;
 }
-
-
-
-
+.aboutsection{
+	background-image: url(image/about-bg.jpg);
+	background-size: cover;
+}
+.aboutbox{
+	width: 100%;
+	display: flex;
+}
+.about1{
+	width: 50%;
+	padding: 5rem 0rem;
+	color: white;
+	padding-right: 0.5rem;
+	font-family: sans-serif;
+}
+.about1 h2{
+	font-family: none;
+	font-size: 1.8rem;
+}
+.about1 p i{
+	font-size: 1rem;
+	padding: 0.5rem 0rem;
+	line-height: 1.5rem;
+}
+.about1 p{
+	font-size: 1.1rem;
+	padding: 0.5rem 0rem;
+	line-height: 1.5rem;
+}
+.about1 ul{
+	list-style-type: none;
+	font-size: 1.1rem;
+	padding: 0.5rem 0rem;
+	line-height: 1.5rem;
+	allign-item: center;
+}
+.checkic{
+	color: orange;
+	font-size: 1.2rem;
+	margin-right: 0.5rem;
+}
+.about2{
+	width: 50%;
+	background-size: cover;
+	padding: 5rem 1.5rem;
+	
+}
+.aboutimg{
+	width: 100%;
+	border: 0.3rem solid  #F7FBFC  ;
+}
 
 
 
