@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fullsection{
+	background-image: url(assets/counts-bg.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}
+.fullsection::after{
+	content:"";
+	position: absolute;
+	opacity: 0.8;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	z-index: -1;
+	
+}
+.title{
+	text-align: center;
+	font-family: sans-serif;
+	padding: 10px;
+}
+.title h1{
+	padding-top: 10vh;
+	line-height: 3rem;
+	color: black;
+}
+.title p{
+	font-size: 15px;
+	color: #2C3E50 ;
+}
+.number{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+.innumber{
+	width: 25%;
+}
+.innumber h2{
+	color: blue;
+	font-family: sans-serif;
+	font-size: 3rem;
+	line-height: 4rem;
+}
+.innumber p{
+    font-size: 15px;
+	color: #2C3E50;
+}
+.secondsection{
+	background-color: white;
+	margin-top: 20vh;
+	height: 40vh;
+	padding: 40px;
+	filter: grayscale(100%);
+}
+.container{
+	margin: 0% 10%;
+}
+.flexbox1{
+	width: 100%;
+	display: flex;
+	padding-top: 5vh;
+}
+.flex1{
+	width: 25%;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 30px;
+}
+.clientimg{
+	width: 50%;
+}
+.flexbox2{
+	width: 100%;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
