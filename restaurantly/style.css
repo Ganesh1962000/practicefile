@@ -284,7 +284,58 @@ header{
 	padding-right: 2rem;
 	line-height: 1.5rem;
 	padding-bottom: 3rem;
+	color: #CCD1D1;
 }
+.fourthsection{
+	background-color:#0E0D0D;
+	color: white;
+}
+.checkour{
+	padding-top: 3.5rem;
+}
+.checkhour p{
+	font-family: sans-serif;
+	line-height: 3rem;
+	color: #CCD1D1;
+}
+.checkour h1{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #F1953A;
+}
+.menulink{
+	padding-top: 3rem;
+	text-align: center;
+	margin-left: 38%;
+}
+.menulink ul{
+	display: flex;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+}
+.menulink a{
+	text-decoration: none;
+	padding-right: 2rem;
+	text-align: center;
+	color: white;
+	font-size: 1.1rem;
+}
+.menulink a:hover{
+	color: #F1953A;
+	transition: ease all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
