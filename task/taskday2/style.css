@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0% 15%;
+	width: 100;
+}
+.fullsection{
+	
+}
+.heading{
+	text-align: center;
+}
+.heading h1{
+	font-family: sans-serif;
+	font-size: 2rem;
+	padding-top: 2rem;
+	line-height: 2rem;
+	font-weight: bold;
+	color: #353B81;
+}
+.heading h1::after{
+	content:"";
+	width: 5%;
+	height: 4px;
+	background-color: #3B66EB ;
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+	margin: auto;
+	top: 1rem;
+}
+.heading p{
+	padding-top: 2rem;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	color: #353B81;
+}
+.qualitybox{
+	width: 100%;
+	font-family: arial;
+	padding-top: 4rem;
+	display: flex;
+	justify-content: space-around;
+}
+.quality{
+	padding-left: 1rem;
+	border-radius: 5px;
+	width: 30%;
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.quality ul{
+	padding-top: 2rem;
+	list-style-type: none;
+	
+}
+.quality h4{
+	padding-top: 2rem;
+	color: #353B81;
+}
+.quality h1{
+	padding-top: 1rem;
+	color: #353B81;
+	font-size: 2rem;
+}
+.quality p{
+	color: #3B66EB;
+	font-size: 0.8rem;
+	font-weight: bold;	
+}
+.quality li{
+	line-height: 2rem;
+	color: #273746 ;
+}
+.icon{
+	color: green;
+}
+.iconr{
+	font-size: 10px;
+}
+button{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 20px;
+	padding: 10px 25px;
+	border-color: #3B66EB;
+	color: #3B66EB;
+	background-color: white;
+}
+.quality2{
+	padding-left: 1rem;
+	border-radius: 5px;
+	width: 30%;
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	border-top: 5px solid #3B66EB;
+}
+.quality2 ul{
+	padding-top: 2rem;
+	list-style-type: none;
+	
+}
+.quality2 h4{
+	padding-top: 2rem;
+	color: #353B81;
+}
+.quality2 h1{
+	padding-top: 1rem;
+	color: #353B81;
+	font-size: 2rem;
+}
+.quality2 p{
+	color: #3B66EB;
+	font-size: 0.8rem;
+	font-weight: bold;	
+}
+.quality2 li{
+	line-height: 2rem;
+	color: #273746 ;
+}
+.icon{
+	color: green;
+}
+.iconr{
+	font-size: 10px;
+}
+.button2{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 20px;
+	padding: 10px 25px;
+	border-color: #3B66EB;
+	color: white;
+	background-color: #3B66EB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
