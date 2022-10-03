@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#para{
+	color: red;
+}
+.progress{
+	color: blue;
+}
+.group p{
+	background-color: yellow;
+}
+* .univers {
+	color: red;
+}
+.space p{
+	color: orange;
+}
+.graderthen > h3{
+	color: brown;
+}
+.add + h3{
+	background-color: gray;
+}
+.string ~ h3{
+	background-color: blue;
+}
+.letter h3:first-letter{
+	color: blue;
+	font-size: 2rem;
+}
+.line h3:first-line{
+	color: blue;
+	font-size: 2rem;
+}
+.before h3::before{
+	content:"<!DOCTYPE html>";
+}
+.after h3::after{
+	content:"<!DOCTYPE html>";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
