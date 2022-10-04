@@ -5,8 +5,9 @@
 .fullsection{
 	background-image: url(assets/counts-bg.jpg);
 	background-size: cover;
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
+	background-position: center;
 	position: relative;
 	z-index: 0;
 }
@@ -28,7 +29,7 @@
 	padding: 10px;
 }
 .title h1{
-	padding-top: 10vh;
+	padding-top: 5vh;
 	line-height: 3rem;
 	color: black;
 }
@@ -42,6 +43,7 @@
 	display: flex;
 	justify-content: space-around;
 	padding-top: 40px;
+	padding-bottom: 5vh;
 }
 .innumber{
 	width: 25%;
@@ -58,8 +60,6 @@
 }
 .secondsection{
 	background-color: white;
-	margin-top: 20vh;
-	height: 40vh;
 	padding: 40px;
 	filter: grayscale(100%);
 }
@@ -69,10 +69,11 @@
 .flexbox1{
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	padding-top: 5vh;
 }
 .flex1{
-	width: 25%;
+	width: 18%;
 	border: 1px solid gray;
 	text-align: center;
 	padding: 30px;
