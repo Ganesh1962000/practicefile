@@ -264,6 +264,11 @@ header{
 	color: white;
 	background-color: #0E0D0D ; 
 }
+.no123:hover{
+	color: white;
+	background-color: orange;
+	
+}
 .no123 h1{
 	color: #F1953A;
 	font-family: sans-serif;
@@ -293,10 +298,21 @@ header{
 .checkour{
 	padding-top: 3.5rem;
 }
-.checkhour p{
+.checkour p{
 	font-family: sans-serif;
 	line-height: 3rem;
 	color: #CCD1D1;
+	position: relative;
+}
+.checkour p::after{
+	content:"";
+	width: 20%;
+	height: 4px;
+	background-color: blue;
+	border-radius: 10px;
+	position: absolute;
+	margin: auto;
+	bottom: ;
 }
 .checkour h1{
 	font-size: 2.5rem;
@@ -325,14 +341,55 @@ header{
 	color: #F1953A;
 	transition: ease all 1s;
 }
-.menulist1{
-	background-color: yellow;
+.menulist{
+	width: 100%;
+	display: flex;
+	padding-top: 5rem;
 }
-
-
-
-
-
+.menulist1{
+	width: 100%;
+	font-family: sans-serif;
+}
+.menuitem{
+	display: flex;
+	padding-bottom: 3rem;
+	padding-right: 1rem;
+}
+.menuimg{
+	width:15%;
+}
+.imgmenu{
+	width: 75%;
+	border-radius: 50%;
+	border: 5px solid  #979A9A;
+}
+.menucontent{
+	width: 85%;
+	font-size: 14px;
+}
+.menucontent h1{
+	font-size: 17px;
+}
+.menucontent h1:hover{
+	color: #F1953A;
+	transition: ease all 1s;
+}
+.menucontent h1 sup{
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+.menucontent h4{
+	color: #808B96;
+	font-size: 15px;
+}
+.menucontent span{
+	color: #F1953A;
+	font-size: 18px;
+}
+.menulist2{
+	width: 100%;
+	font-family: sans-serif;
+}
 
 
 
