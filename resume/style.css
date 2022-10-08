@@ -248,20 +248,136 @@ header p{
 }
 }
 /*end academi*/
-table{
-	text-align: center;
+
+.skill h2{
+	margin-top: 8px;
+	font-size: 11px;
+}
+.firsttable{
+	margin-top: 8px;
 	border-collapse: collapse;
+	width: 100%;
 }
-th,td{
-	border: 1px solid red;
-	padding: ;
+.firsttable td{
+	border: 0.5px solid black;
+	padding: 10px 3px;
+}
+.firsttable ul{
+	padding-left: 20px ;
+	font-size: 8px;
+}
+.firsttable h3{
+	padding-right: 20px;
+	font-size: 11px;
+}
+.firsttable h4{
+	padding-right: 10px ;
+	font-size: 8px;
+}
+.firsttable p{
+	padding-left: 15px ;
+	padding-right: 5px;
+	font-size: 8px;
+}
+@media(min-width:390px){
 	
+.skill h2{
+	margin-top: 9px;
+	font-size: 15px;
 }
-
-
-
-
-
+.firsttable{
+	margin-top: 9px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.firsttable td{
+	border: 0.5px solid black;
+	padding: 12px 4px;
+}
+.firsttable ul{
+	padding-left: 22px ;
+	font-size: 9px;
+}
+.firsttable h3{
+	padding-right: 10px;
+	font-size: 12px;
+}
+.firsttable h4{
+	padding-right: 10px ;
+	font-size: 9px;
+}
+.firsttable p{
+	padding-left: 17px ;
+	padding-right: 5px;
+	font-size: 9px;
+}
+}
+@media(min-width:768px){
+	
+.skill h2{
+	margin-top: 12px;
+	font-size: 20px;
+}
+.firsttable{
+	margin-top: 9px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.firsttable td{
+	border: 0.5px solid black;
+	padding: 12px 4px;
+}
+.firsttable ul{
+	padding-left: 25px ;
+	font-size: 12px;
+}
+.firsttable h3{
+	padding-right: 70px;
+	font-size: 18px;
+}
+.firsttable h4{
+	padding-right: 12px ;
+	font-size: 14px;
+}
+.firsttable p{
+	padding-left: 100px ;
+	padding-right: 1px;
+	font-size: 14px;
+}
+}
+@media(min-width:768px){
+	
+.skill h2{
+	margin-top: 12px;
+	font-size: 30px;
+}
+.firsttable{
+	margin-top: 18px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.firsttable td{
+	border: 1px solid black;
+	padding: 18px 6px;
+}
+.firsttable ul{
+	padding-left: 40px ;
+	font-size: 18px;
+}
+.firsttable h3{
+	padding-right: 250px;
+	font-size: 25px;
+}
+.firsttable h4{
+	padding-right: 12px ;
+	font-size: 20px;
+}
+.firsttable p{
+	padding-left: 150px ;
+	padding-right: 1px;
+	font-size: 18px;
+}
+}
 
 
 
