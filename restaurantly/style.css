@@ -247,6 +247,16 @@ header{
 	line-height: 4vh;
 	color: #CCD1D1;
 }
+.whyus p::after{
+	content:"";
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
+	position: absolute;
+	margin: auto;
+	top: 80%;
+	left: 5%;
+}
 .whyus h1{
 	font-size: 2.5rem;
 	font-weight: bold;
@@ -306,13 +316,13 @@ header{
 }
 .checkour p::after{
 	content:"";
-	width: 20%;
-	height: 4px;
-	background-color: blue;
-	border-radius: 10px;
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
 	position: absolute;
 	margin: auto;
-	bottom: ;
+	top: 50%;
+	left: 5%;
 }
 .checkour h1{
 	font-size: 2.5rem;
@@ -370,6 +380,16 @@ header{
 .menucontent h1{
 	font-size: 17px;
 }
+.menucontent h1::after{
+	content:".............";
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 5%;
+}
 .menucontent h1:hover{
 	color: #F1953A;
 	transition: ease all 1s;
@@ -390,9 +410,55 @@ header{
 	width: 100%;
 	font-family: sans-serif;
 }
-
-
-
+/**/
+.fivethsection{
+	background-color: black;
+}
+.special p{
+	padding-top: 2rem;
+	font-family: sans-serif;
+	line-height: 3rem;
+	color: #CCD1D1;
+	position: relative;
+}
+.special p::after{
+	content:"";
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
+	position: absolute;
+	margin: auto;
+	top: 70%;
+	left: 8%;
+}
+.special h1{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #F1953A;
+	padding-bottom: 2rem;
+}
+/**/
+.specialbox{
+	width: 100%;
+	display: flex;
+	background-color: white;
+	height: 55vh;
+}
+.specialbox1{
+	width: 25%;
+	background-color: blue;
+	height: 55vh;
+}
+.specialbox2{
+	width: 50%;
+	background-color: green;
+	height: 55vh;
+}
+.specialbox3{
+	width: 25%;
+	background-color: blue;
+	height: 55vh;
+}
 
 
 
