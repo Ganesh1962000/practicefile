@@ -19,6 +19,9 @@ header h3{
 	line-height: 0.8rem;
 	color: #0779ea;
 }
+header span{
+	font-weight: bold;
+}
 header p{
 	font-size: 7px;
 	line-height: 0.8rem;
@@ -37,6 +40,9 @@ header{
 header h1{
 	font-size: 19px;
 	line-height: 2.1rem;
+}
+header span{
+	font-weight: bold;
 }
 header h3{
 	font-size: 10px;
@@ -64,6 +70,9 @@ header h1{
 	font-size: 24px;
 	line-height: 2.5rem;
 }
+header span{
+	font-weight: bold;
+}
 header h3{
 	font-size: 13px;
 	line-height: 2rem;
@@ -89,6 +98,9 @@ header{
 header h1{
 	font-size: 35px;
 	line-height: 3rem;
+}
+header span{
+	font-weight: bold;
 }
 header h3{
 	font-size: 18px;
@@ -268,10 +280,12 @@ header p{
 .firsttable ul{
 	padding-left: 20px ;
 	font-size: 8px;
+	line-height: 0.8rem;
 }
 .firsttable h3{
 	padding-right: 20px;
 	font-size: 11px;
+	line-height: 0.8rem;
 }
 .firsttable h4{
 	padding-right: 10px ;
@@ -304,10 +318,12 @@ header p{
 .firsttable ul{
 	padding-left: 22px ;
 	font-size: 9px;
+	line-height: 1rem;
 }
 .firsttable h3{
 	padding-right: 10px;
 	font-size: 12px;
+	line-height: 1rem;
 }
 .firsttable h4{
 	padding-right: 10px ;
@@ -341,10 +357,12 @@ header p{
 .firsttable ul{
 	padding-left: 25px ;
 	font-size: 12px;
+	line-height: 1.5rem;
 }
 .firsttable h3{
 	padding-right: 70px;
 	font-size: 18px;
+	line-height: 1.5rem;
 }
 .firsttable h4{
 	padding-right: 12px ;
@@ -378,10 +396,12 @@ header p{
 .firsttable ul{
 	padding-left: 40px ;
 	font-size: 18px;
+	line-height: 2rem;
 }
 .firsttable h3{
 	padding-right: 200px;
 	font-size: 25px;
+	line-height: 2rem;
 }
 .firsttable h4{
 	padding-right: 12px ;
@@ -559,6 +579,9 @@ header p{
 .secondtable h3{
 	font-size: 11px;
 }
+.secondtable a{
+	color: #0779ea;
+}
 .secondtable p{
 	font-size: 11px;
 	line-height: 0.8rem;
@@ -596,6 +619,9 @@ header p{
 }
 .secondtable h3{
 	font-size: 13px;
+}
+.secondtable a{
+	color: #0779ea;
 }
 .secondtable p{
 	font-size: 10px;
@@ -636,6 +662,9 @@ header p{
 .secondtable h3{
 	font-size: 17px;
 }
+.secondtable a{
+	color: #0779ea;
+}
 .secondtable p{
 	font-size: 16px;
 	line-height: 1.5rem;
@@ -675,6 +704,9 @@ header p{
 .secondtable h3{
 	font-size: 23px;
 }
+.secondtable a{
+	color: #0779ea;
+}
 .secondtable p{
 	font-size: 20px;
 	line-height: 2.1rem;
@@ -709,6 +741,9 @@ header p{
 }
 .thirdtable h3{
 	font-size: 11px;
+}
+.thirdtable a{
+	color: #0779ea;
 }
 .thirdtable p{
 	font-size: 10px;
@@ -745,6 +780,9 @@ header p{
 }
 .thirdtable h3{
 	font-size: 11px;
+}
+.thirdtable a{
+	color: #0779ea;
 }
 .thirdtable p{
 	font-size: 9px;
@@ -783,6 +821,9 @@ header p{
 .thirdtable h3{
 	font-size: 17px;
 }
+.thirdtable a{
+	color: #0779ea;
+}
 .thirdtable p{
 	font-size: 15px;
 	line-height: 1.2rem;
@@ -807,29 +848,115 @@ header p{
 }
 .thirdtable td{
 	border: 1px solid black;
-	padding: 15px 6px;
+	padding: 15px 7px;
 }
 .thirdtable h2{
-	font-size: 18px;
-	line-height: 1.5rem;
+	font-size: 25px;
+	line-height: 2rem;
 }
 .thirdtable h4{
-	font-size: 13px;
-	line-height: 1.4rem;
+	font-size: 19px;
+	line-height: 2rem;
 }
 .thirdtable h3{
-	font-size: 17px;
+	font-size: 23px;
+}
+.thirdtable a{
+	color: #0779ea;
 }
 .thirdtable p{
-	font-size: 15px;
-	line-height: 1.2rem;
+	font-size: 20px;
+	line-height: 1.8rem;
 }
 .thirdtable ul{
+	font-size: 20px;
+	line-height: 1.8rem;
+	margin-left: 4rem;
+}
+}
+/*end third table*/
+
+.footer{
+	margin-bottom: 5rem;
+}
+.footer h1{
+	font-size: 12px;
+	line-height: 2rem;
+}
+.footer p{
+	font-size: 10px;
+	line-height: 0.7rem;
+}
+.footer h3{
+	font-size: 11px;
+	line-height: 3rem;
+	color: #0779ea;
+}
+/*390*/
+@media(min-width:390px){
+	
+.footer{
+	margin-bottom: 6rem;
+}
+.footer h1{
 	font-size: 15px;
-	line-height: 1.2rem;
-	margin-left: 3rem;
+	line-height: 2rem;
+}
+.footer p{
+	font-size: 12px;
+	line-height: 1rem;
+}
+.footer h3{
+	font-size: 14px;
+	line-height: 3.5rem;
+	color: #0779ea;
 }
 }
+/*768*/
+@media(min-width:768px){
+	
+.footer{
+	margin-bottom: 7rem;
+}
+.footer h1{
+	font-size: 20px;
+	line-height: 3rem;
+}
+.footer p{
+	font-size: 17px;
+	line-height: 1.5rem;
+}
+.footer h3{
+	font-size: 18px;
+	line-height: 4rem;
+	color: #0779ea;
+}
+}
+/*1024*/
+@media(min-width:768px){
+	
+.footer{
+	margin-bottom: 8rem;
+}
+.footer h1{
+	font-size: 25px;
+	line-height: 3.5rem;
+}
+.footer p{
+	font-size: 20px;
+	line-height: 2rem;
+}
+.footer h3{
+	font-size: 22px;
+	line-height: 5rem;
+	color: #0779ea;
+}
+}
+
+
+
+
+
 
 
 
