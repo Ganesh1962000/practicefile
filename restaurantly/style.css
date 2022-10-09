@@ -47,16 +47,9 @@ header{
 	width: 29%;
 	justify-content: space-between;
 	text-align:center;
-
 }
 .number p{
 	align-items: center;
-}
-.time{
-	
-}
-.nuside p{
-	
 }
 .nuside span{
 	color: orange;
@@ -108,7 +101,6 @@ header{
 	padding-left: 1rem;
 	padding-right: 1rem;
 	letter-spacing: 1px;
-	
 }
 .bookbut:hover{
 	color: white;
@@ -175,7 +167,7 @@ header{
 	position: relative;
 	z-index: 0;
 }
-.abooutsection::after{
+.aboutsection::after{
 	content:"";
 	position: absolute;
 	top: 0;
@@ -219,7 +211,7 @@ header{
 	font-size: 1.1rem;
 	padding: 0.5rem 0rem;
 	line-height: 1.5rem;
-	allign-item: center;
+	align-items: center;
 }
 .checkic{
 	color: orange;
@@ -234,7 +226,13 @@ header{
 }
 .aboutimg{
 	width: 100%;
-	border: 0.3rem solid  #F7FBFC  ;
+	border: 0.3rem solid  #F7FBFC;
+	overflow: hidden;
+}
+.about3:hover{
+	transform: scale(1.1);
+	width: 101%;
+	transition: all ease 1s;
 }
 .thirdsection{
 	background-color: black;
@@ -246,6 +244,7 @@ header{
 	font-family: sans-serif;
 	line-height: 4vh;
 	color: #CCD1D1;
+	position: relative;
 }
 .whyus p::after{
 	content:"";
@@ -254,8 +253,8 @@ header{
 	background-color: #808080a1;
 	position: absolute;
 	margin: auto;
-	top: 80%;
-	left: 5%;
+	left: 7%;
+	top: 50%;
 }
 .whyus h1{
 	font-size: 2.5rem;
@@ -380,16 +379,6 @@ header{
 .menucontent h1{
 	font-size: 17px;
 }
-.menucontent h1::after{
-	content:".............";
-	width: 10%;
-	height: 1px;
-	background-color: #808080a1;
-	position: absolute;
-	margin: auto;
-	top: 50%;
-	left: 5%;
-}
 .menucontent h1:hover{
 	color: #F1953A;
 	transition: ease all 1s;
@@ -441,29 +430,93 @@ header{
 .specialbox{
 	width: 100%;
 	display: flex;
-	background-color: white;
-	height: 55vh;
+	background-color: black;
+	padding-bottom: 3rem;
 }
 .specialbox1{
 	width: 25%;
-	background-color: blue;
-	height: 55vh;
+	font-family: sans-serif;
+}
+.specialbox1 ul{
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 3rem;
+	padding: 10px 20px 5px 15px;
+	border-right: 3px solid #F1953A;
+	color: white;
+}
+.specialbox1 li:hover{
+	color: #F1953A;
+	transition: ease all 1s;
 }
 .specialbox2{
 	width: 50%;
-	background-color: green;
-	height: 55vh;
+	padding: 15px 10px 10px 20px;
+	color: white;
+}
+.specialbox2 h2{
+	font-size: 30px;
+}
+.specialbox2 p{
+	font-size: 17px;
+	line-height: 1.5rem;
+	font-family: sans-serif;
+	margin-top: 20px;
+	color: #CCD1D1;
 }
 .specialbox3{
 	width: 25%;
-	background-color: blue;
-	height: 55vh;
+	padding: 15px 10px 10px 10px;
 }
-
-
-
-
-
+.spcimg{
+	width: 100%;
+}
+/**/
+.sixthsection{
+	background-image: url(image/events-bg.jpg);
+	height: 100vh;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+.sixthsection::after{
+	content:"";
+	position: absolute;
+	opacity: 0.8;
+	background-color: black;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.event p{
+	padding-top: 2rem;
+	font-family: sans-serif;
+	line-height: 3rem;
+	color: #CCD1D1;
+	position: relative;
+}
+.event p::after{
+	content:"";
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
+	position: absolute;
+	margin: auto;
+	top: 70%;
+	left: 8%;
+}
+.event h1{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #F1953A;
+	padding-bottom: 2rem;
+}
+/**/
+.eventbox{
+	
+}
 
 
 
