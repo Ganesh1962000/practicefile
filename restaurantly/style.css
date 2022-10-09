@@ -491,7 +491,7 @@ header{
 	z-index: -1;
 }
 .event p{
-	padding-top: 2rem;
+	padding-top: 2.5rem;
 	font-family: sans-serif;
 	line-height: 3rem;
 	color: #CCD1D1;
@@ -515,14 +515,93 @@ header{
 }
 /**/
 .eventbox{
-	
+	width: 100%;
+	padding: 2rem 0rem 0rem 0rem;
+	display: flex;
+}
+.eventbox1{
+	width: 50%;
+}
+.eveimg{
+	width: 100%;
+}
+.eventbox2{
+	width: 50%;
+	color: white;
+	padding-left: 2rem;
+	font-family: sans-serif;
+}
+.eventbox2 h1{
+	font-size: 30px;
+	color: #F1953A;
+	font-family: none;
+}
+.eventbox2 h2{
+	font-size: 25px;
+	margin-top: 1rem;
+}
+.eventbox2 h2::after{
+	content:"";
+	position: relative;
+	width: 10%;
+	height: 2px;
+	border-radius: 10px;
+	background-color: #F1953A;
+	display: flex;
+	margin: auto;
+	right: 45%;
+
+}
+.eventbox2 p{
+	font-size:18px;
+	margin-top: 1.8rem;
+	color: #CCD1D1;
+}
+.eventbox2 li{
+	font-size: 18px;
+	list-style-type: none;
+	line-height: 2.5rem;
+	color: #CCD1D1;
+}
+/*------------*/
+
+.saventhsection{
+	background-color: black;
 }
 
-
-
-
-
-
-
-
-
+.reservation p{
+	padding-top: 2.5rem;
+	font-family: sans-serif;
+	line-height: 3rem;
+	color: #CCD1D1;
+	position: relative;
+}
+.reservation p::after{
+	content:"";
+	width: 10%;
+	height: 1px;
+	background-color: #808080a1;
+	position: absolute;
+	margin: auto;
+	top: 70%;
+	left: 11%;
+}
+.reservation h1{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #F1953A;
+	padding-bottom: 2rem;
+}
+/*-------*/
+.reform1{
+	justify-content: space-around;
+	width: 100%;
+}
+.refor1{
+	width: 25%;
+	background-color: transparent;
+	border: 1px solid #808080a1;
+	padding: 15px;
+	justify-content: space-around;
+	
+}
