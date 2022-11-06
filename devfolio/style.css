@@ -7,7 +7,7 @@
 .container{
 	margin: 0% 0%;
 }
-.navicon{
+.navicon {
 	display: block;
 	color: aqua;
 }
@@ -45,10 +45,10 @@
 }
 }
 header{
-	background-color: red;
+	background-color: black;
 	width: 100%;
 	position:fixed;
-	top:0;
+	top: 0;
 }
 .container{
 	margin: 0% 7%;
@@ -56,7 +56,7 @@ header{
 .fullheader{
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 20px 0px;
 	justify-content: space-between;
 }
 .title{
